@@ -1,10 +1,10 @@
-#### ⚠️ [Original Repo](https://github.com/j-hc/revanced-magisk-module)
+#### ⚠️ [Original Repo]|[Repo Original](https://github.com/j-hc/revanced-magisk-module)
 
 # RVX-App
 ![Artifacts](./revanced-magisk/banner.png)
-[![Telegram](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/cvnertnc)
-[![latest CI release](https://img.shields.io/github/v/release/cvnertnc/rvx-app?label=Release&logo=github)](https://github.com/cvnertnc/rvx-app/releases/latest)
-[![CI](https://github.com/cvnertnc/rvx-app/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/cvnertnc/rvx-app/actions/workflows/ci.yml)
+[![Telegram](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/EricDark231)
+[![latest CI release](https://img.shields.io/github/v/release/cvnertnc/rvx-app?label=Release&logo=github)](https://github.com/EricDark231/RVXLGALE/releases)
+[![CI](https://github.com/cvnertnc/rvx-app/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/EricDark231/RVXLGALE/actions/workflows/ci.yml)
 
 Extensive RVX-App Builder
 
