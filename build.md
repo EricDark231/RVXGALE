@@ -1,7 +1,6 @@
 GooglePhotos: 7.50.0.818774663  
 Music: 8.30.54  
 Reddit: 2025.12.1  
-Spotify: 9.0.92.200  
 YouTube: 20.21.37  
 YouTube-NoSwipe: 20.21.37  
 
