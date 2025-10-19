@@ -3,8 +3,8 @@
 # RVX-ENHANCE (FOCUSED OF GALE PHONES)
 ![Artifacts](./revanced-magisk/banner.png)
 [![Telegram](https://img.shields.io/badge/Follow-Telegram-blue.svg?logo=telegram)](https://t.me/EricDark231)
-[![latest CI release](https://img.shields.io/github/v/release/EricDark231/rvx-app?label=Release&logo=github)](https://github.com/EricDark231/RVXLGALE/releases)
-[![CI](https://github.com/cvnertnc/rvx-app/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/EricDark231/RVXLGALE/actions/workflows/ci.yml)
+[![latest CI release](https://img.shields.io/github/v/release/EricDark231/RVXGALE?label=Release&logo=github)](https://github.com/EricDark231/RVXLGALE/releases)
+[![CI](https://github.com/cvnertnc/rvx-app/actions/workflows/ci.yml/badge.svg?event=schedule)](https://github.com/EricDark231/RVXGALE/actions/workflows/ci.yml)
 
 Extensive RVX-App Builder
 
