@@ -31,7 +31,7 @@ build-mode = "both"
 arch = "arm64-v8a"
 included-patches = "'Custom header for YouTube Music' 'Disable music video in album' 'Hide overlay filter' 'Hide player overlay filter'"
 excluded-patches = "'Dark theme'"
-version = "8.12.54"
+version = "auto"
 patcher-args = "-e 'Custom branding icon for YouTube Music' -OappIcon='revancify_red'"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
@@ -51,6 +51,14 @@ build-mode = "apk"
 arch = "arm64-v8a"
 version = "auto"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
+
+[GooglePhotos]
+build-mode = "both"
+arch = "both"
+version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
+uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
 
 # [YouTube-NoSwipe]
 # enabled = true
