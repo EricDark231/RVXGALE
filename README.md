@@ -39,3 +39,4 @@ Also see here [`CONFIG.md`](./CONFIG.md).
 [j-hc](https://github.com/j-hc)  
 [inotia00](https://github.com/inotia00)  
 [anddea](https://github.com/anddea)  
+[cvnertnc](https://github.com/cvnertnc)  
