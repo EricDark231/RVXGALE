@@ -187,7 +187,7 @@ fi
 rm -rf "${MODPATH:?}/bin" "$MODPATH/$PKG_NAME.apk"
 
 ui_print "* Done"
-ui_print "  by cvnertnc (github.com/cvnertnc)"
+ui_print "  by EricDark231 (github.com/EricDark231)"
 ui_print "  thanks to ReVanced Team (github.com/ReVanced)"
 ui_print "  thanks to inotia00 (github.com/inotia00)"
 ui_print "  thanks to anddea (github.com/anddea)"
