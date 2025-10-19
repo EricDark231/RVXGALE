@@ -1,4 +1,4 @@
-#### ⚠️ [Original Repo]|[Repo Original] (https://github.com/j-hc/revanced-magisk-module)
+#### ⚠️ [Original Repo|Repo Original](https://github.com/j-hc/revanced-magisk-module)
 
 # RVX-App
 ![Artifacts](./revanced-magisk/banner.png)
