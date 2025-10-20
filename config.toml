@@ -1,5 +1,5 @@
 # add 'enabled = false' for not patching a specific app or remove it from the config
-# see https://github.com/cvnertnc/rvx-app/blob/main/CONFIG.md for more detailed explanations
+# see https://github.com/EricDark231/RVXGALE/blob/main/CONFIG.md for more detailed explanations
 # you can use rvmm-config-gen to generate a config
 # enabled = true/false
 
