@@ -12,15 +12,15 @@ patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 rv-brand = "RVX App"
 
-patches-version = "latest"
-cli-version = "latest"
+patches-version = "dev"
+cli-version = "dev"
 
 [YouTube]
 enabled = true
 build-mode = "both"
 included-patches = "'Custom header for YouTube' 'Swipe controls'"
 excluded-patches = "'Alternative thumbnails' 'Custom Shorts action buttons' 'Disable splash animation' 'Enable gradient loading screen' 'Force player buttons background' 'Hide action buttons' 'Hide feed components' 'Hide feed flyout menu' 'Hook download actions' 'Shorts components' 'Theme'"
-version = "20.21.37"
+version = "auto"
 patcher-args = "-e 'Custom branding icon for YouTube' -OappIcon='revancify_red'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
@@ -30,7 +30,7 @@ enabled = true
 build-mode = "both"
 included-patches = "'Custom header for YouTube'"
 excluded-patches = "'Alternative thumbnails' 'Custom Shorts action buttons' 'Disable splash animation' 'Enable gradient loading screen' 'Force player buttons background' 'Hide action buttons' 'Hide feed components' 'Hide feed flyout menu' 'Hook download actions' 'Shorts components' 'Swipe controls' 'Theme'"
-version = "20.21.37"
+version = "auto"
 patcher-args = "-e 'Custom branding icon for YouTube' -OappIcon='revancify_red'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
@@ -62,8 +62,8 @@ uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
 patches-source = "revanced/revanced-patches"
 cli-source = "j-hc/revanced-cli"
-patches-version = "latest"
-cli-version = "latest"
+patches-version = "dev"
+cli-version = "dev"
 
 
 # [Spotify-module]
