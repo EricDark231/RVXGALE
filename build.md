@@ -1,4 +1,4 @@
-GooglePhotos: 7.50.0.818774663  
+GooglePhotos: 7.52.0.825653635  
 Music: 8.30.54  
 Reddit: 2025.12.1  
 YouTube: 20.05.46  
@@ -10,12 +10,12 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
 [rvxgale](https://github.com/EricDark231/RVXGALE)
   
 CLI: inotia00/revanced-cli-5.0.1-all.jar  
-Patches: anddea/patches-3.14.0-dev.9.rvp  
-[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v3.14.0-dev.9)
+Patches: anddea/patches-3.15.0-dev.1.rvp  
+[Changelog](https://github.com/anddea/revanced-patches/releases/tag/v3.15.0-dev.1)
 
 CLI: inotia00/revanced-cli-5.0.1-all.jar  
 CLI: inotia00/revanced-cli-5.0.1-all.jar  
 CLI: inotia00/revanced-cli-5.0.1-all.jar  
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: revanced/patches-5.44.0-dev.1.rvp  
-[Changelog](https://github.com/revanced/revanced-patches/releases/tag/v5.44.0-dev.1)  
+Patches: revanced/patches-5.45.0-dev.6.rvp  
+[Changelog](https://github.com/revanced/revanced-patches/releases/tag/v5.45.0-dev.6)  
