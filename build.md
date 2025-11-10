@@ -1,4 +1,4 @@
-GooglePhotos: 7.52.0.825653635  
+GooglePhotos: 7.53.0.827222094  
 Music: 8.30.54  
 Reddit: 2025.12.1  
 YouTube: 20.05.46  
@@ -17,5 +17,5 @@ CLI: inotia00/revanced-cli-5.0.1-all.jar
 CLI: inotia00/revanced-cli-5.0.1-all.jar  
 CLI: inotia00/revanced-cli-5.0.1-all.jar  
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: revanced/patches-5.45.0-dev.6.rvp  
-[Changelog](https://github.com/revanced/revanced-patches/releases/tag/v5.45.0-dev.6)  
+Patches: revanced/patches-5.46.0-dev.10.rvp  
+[Changelog](https://github.com/revanced/revanced-patches/releases/tag/v5.46.0-dev.10)  
