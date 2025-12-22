@@ -17,5 +17,5 @@ CLI: inotia00/revanced-cli-5.0.1-all.jar
 CLI: inotia00/revanced-cli-5.0.1-all.jar  
 CLI: inotia00/revanced-cli-5.0.1-all.jar  
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: revanced/patches-5.47.0-dev.17.rvp  
-[Changelog](https://github.com/revanced/revanced-patches/releases/tag/v5.47.0-dev.17)  
+Patches: revanced/patches-5.47.0-dev.18.rvp  
+[Changelog](https://github.com/revanced/revanced-patches/releases/tag/v5.47.0-dev.18)  
