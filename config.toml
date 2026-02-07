@@ -15,7 +15,7 @@ rv-brand = "RVX & Marble App"
 patches-version = "dev"
 cli-version = "dev"
 
-[Revanced-YouTube]
+[YouTube]
 enabled = true
 build-mode = "both"
 included-patches = "'Custom header for YouTube' 'Swipe controls'"
@@ -24,9 +24,8 @@ version = "auto"
 patcher-args = "-e 'Custom branding icon for YouTube' -OappIcon='revancify_red'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-patches-source = "anddea/revanced-patches"
 
-[Revanced.YouTube-NoSwipe]
+[YouTube-NoSwipe]
 enabled = true
 build-mode = "both"
 included-patches = "'Custom header for YouTube'"
@@ -35,9 +34,8 @@ version = "auto"
 patcher-args = "-e 'Custom branding icon for YouTube' -OappIcon='revancify_red'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
-patches-source = "anddea/revanced-patches"
 
-[Revanced.Music]
+[Music]
 enabled = true
 build-mode = "both"
 arch = "arm64-v8a"
@@ -47,7 +45,6 @@ version = "auto"
 patcher-args = "-e 'Custom branding icon for YouTube Music' -OappIcon='revancify_red'"
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
-patches-source = "anddea/revanced-patches"
 
 [Reddit]
 enabled = true
@@ -55,7 +52,7 @@ build-mode = "apk"
 arch = "arm64-v8a"
 version = "auto"
 uptodown-dlurl = "https://reddit-official-app.en.uptodown.com/android"
-patches-source = "anddea/revanced-patches"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
 [GooglePhotos]
 build-mode = "both"
@@ -69,7 +66,8 @@ cli-source = "j-hc/revanced-cli"
 patches-version = "dev"
 cli-version = "dev"
 
-[YouTube.Morphe]
+[YouTube]
+app-name = "Morphe-Youtube"
 enabled = true
 build-mode = "both"
 included-patches = "'Custom header for YouTube' 'Swipe controls'"
@@ -81,7 +79,8 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 patches-source = "MorpheApp/morphe-patches"
 
 
-[YTM.Morphe]
+[Music]
+app-name = "Morphe-Youtube-Music"
 enabled = true
 build-mode = "both"
 arch = "arm64-v8a"
