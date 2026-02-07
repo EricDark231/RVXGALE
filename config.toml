@@ -15,7 +15,7 @@ rv-brand = "RVX & Marble App"
 patches-version = "dev"
 cli-version = "dev"
 
-[Revanced YouTube]
+[Revanced-YouTube]
 enabled = true
 build-mode = "both"
 included-patches = "'Custom header for YouTube' 'Swipe controls'"
@@ -26,7 +26,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 patches-source = "anddea/revanced-patches"
 
-[Revanced YouTube-NoSwipe]
+[Revanced.YouTube-NoSwipe]
 enabled = true
 build-mode = "both"
 included-patches = "'Custom header for YouTube'"
@@ -37,7 +37,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 patches-source = "anddea/revanced-patches"
 
-[Revanced Music]
+[Revanced.Music]
 enabled = true
 build-mode = "both"
 arch = "arm64-v8a"
@@ -69,7 +69,7 @@ cli-source = "j-hc/revanced-cli"
 patches-version = "dev"
 cli-version = "dev"
 
-[YouTube Morphe]
+[YouTube.Morphe]
 enabled = true
 build-mode = "both"
 included-patches = "'Custom header for YouTube' 'Swipe controls'"
@@ -81,7 +81,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 patches-source = "MorpheApp/morphe-patches"
 
 
-[YT Music Morphe]
+[YTM.Morphe]
 enabled = true
 build-mode = "both"
 arch = "arm64-v8a"
