@@ -1,0 +1,66 @@
+name: Hybrid ReVanced + Morphe Build
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 8 * * *"   # opcional auto build diario
+
+jobs:
+  hybrid-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y jq curl wget zip unzip openjdk-17-jdk
+
+      - name: Setup permissions
+        run: chmod +x build.sh utils.sh
+
+      # =========================
+      # FASE REVANCED
+      # =========================
+
+      - name: Configure ReVanced source
+        run: |
+          sed -i 's#patches-source = .*#patches-source = "revanced/revanced-patches"#' config.toml
+
+      - name: Run ReVanced build
+        run: ./build.sh
+
+      - name: Save ReVanced output
+        uses: actions/upload-artifact@v4
+        with:
+          name: revanced-output
+          path: build/
+
+      # =========================
+      # LIMPIEZA CRÍTICA
+      # =========================
+
+      - name: Clean builder cache
+        run: |
+          rm -rf build
+          rm -rf temp
+          rm -rf *.jar
+
+      # =========================
+      # FASE MORPHE
+      # =========================
+
+      - name: Configure Morphe source
+        run: |
+          sed -i 's#patches-source = .*#patches-source = "Morphe/revanced-patches"#' config.toml
+
+      - name: Run Morphe build
+        run: ./build.sh
+
+      - name: Save Morphe output
+        uses: actions/upload-artifact@v4
+        with:
+          name: morphe-output
+          path: build/
