@@ -69,8 +69,7 @@ patcher-args = "-e 'Custom branding icon for YouTube' -OappIcon='revancify_red'"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 patches-source = "MorpheApp/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
-cli-version = "dev"
+
 
 [M-Music]
 app-name = "Morphe-Youtube-Music"
@@ -84,8 +83,7 @@ patcher-args = "-e 'Custom branding icon for YouTube Music' -OappIcon='revancify
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 patches-source = "MorpheApp/morphe-patches"
-cli-source = "MorpheApp/morphe-cli"
-cli-version = "dev"
+
 # [Spotify-module]
 # enabled = true
 # app-name = "Spotify"
