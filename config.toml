@@ -22,7 +22,6 @@ included-patches = "'Custom header for YouTube' 'Swipe controls'"
 excluded-patches = "'Alternative thumbnails' 'Custom Shorts action buttons' 'Disable splash animation' 'Enable gradient loading screen' 'Force player buttons background' 'Hide action buttons' 'Hide feed components' 'Hide feed flyout menu' 'Hook download actions' 'Shorts components' 'Theme'"
 version = "20.21.37"
 patcher-args = "-e 'Custom branding icon for YouTube' -OappIcon='revancify_red'"
-apkmirror-dlurl = "https://apkpure.com/es/youtube-2025/com.google.android.youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [Music]
@@ -33,7 +32,6 @@ included-patches = "'Custom header for YouTube Music' 'Disable music video in al
 excluded-patches = "'Dark theme'"
 version = "8.12.54"
 patcher-args = "-e 'Custom branding icon for YouTube Music' -OappIcon='revancify_red'"
-apkmirror-dlurl = "https://apkpure.com/es/youtube-music/com.google.android.apps.youtube.music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
  [YouTube-NoSwipe]
@@ -43,7 +41,6 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
  excluded-patches = "'Alternative thumbnails' 'Custom Shorts action buttons' 'Disable splash animation' 'Enable gradient loading screen' 'Force player buttons background' 'Hide action buttons' 'Hide feed components' 'Hide feed flyout menu' 'Hook download actions' 'Shorts components' 'Swipe controls' 'Theme'"
  version = "20.21.37"
  patcher-args = "-e 'Custom branding icon for YouTube' -OappIcon='revancify_red'"
- apkmirror-dlurl = "https://apkpure.com/es/youtube-2025/com.google.android.youtube"
  uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [M-YouTube]
@@ -54,7 +51,6 @@ included-patches = "'Custom header for YouTube' 'Swipe controls'"
 excluded-patches = "'Alternative thumbnails' 'Custom Shorts action buttons' 'Disable splash animation' 'Enable gradient loading screen' 'Force player buttons background' 'Hide action buttons' 'Hide feed components' 'Hide feed flyout menu' 'Hook download actions' 'Shorts components' 'Theme'"
 version = "auto"
 patcher-args = "-e 'Custom branding icon for YouTube' -OappIcon='revancify_red'"
-apkmirror-dlurl = "https://apkpure.com/es/youtube-2025/com.google.android.youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 patches-source = "MorpheApp/morphe-patches"
 
@@ -67,6 +63,5 @@ included-patches = "'Custom header for YouTube Music' 'Disable music video in al
 excluded-patches = "'Dark theme'"
 version = "auto"
 patcher-args = "-e 'Custom branding icon for YouTube Music' -OappIcon='revancify_red'"
-apkmirror-dlurl = "https://apkpure.com/es/youtube-2025/com.google.android.youtube"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 patches-source = "MorpheApp/morphe-patches"
