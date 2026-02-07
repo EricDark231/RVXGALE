@@ -83,12 +83,7 @@ get_rv_prebuilts() {
 			local resp asset name
 			resp=$(gh_req "$rv_rel" -) || return 1
 			tag_name=$(jq -r '.tag_name' <<<"$resp")
-			if [ "$tag" = "CLI" ]; then
-	asset=$(jq -e -r '.assets[] | select(.name | endswith("all.jar"))' <<<"$resp") || return 1
-else
-	asset=$(jq -e -r ".assets[] | select(.name | endswith(\"$ext\"))" <<<"$resp") || return 1
-fi
-
+			asset=$(jq -e -r ".assets[] | select(.name | endswith(\"$ext\"))" <<<"$resp") || return 1
 			url=$(jq -r .url <<<"$asset")
 			name=$(jq -r .name <<<"$asset")
 			file="${dir}/${name}"
